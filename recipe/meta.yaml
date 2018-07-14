@@ -1,6 +1,6 @@
 {% set name = "python-crontab" %}
-{% set version = "2.3.3" %}
-{% set sha256 = "7450cf436cf619eeeded92d730bcbe4f1c0270539f87663383450ae4d563d4e2" %}
+{% set version = "2.3.4" %}
+{% set sha256 = "dea723fd38a2e383bc973e074b85e498e17a1dd38a0877a5743bdb8cc1d4866a" %}
 
 package:
   name: {{ name|lower }}
