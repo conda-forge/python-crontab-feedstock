@@ -1,6 +1,6 @@
 {% set name = "python-crontab" %}
-{% set version = "2.4.0" %}
-{% set sha256 = "3ac1608ff76032e6fc6e16b5fbf83b51557e0e066bf78e9f88571571e7bd7ae6" %}
+{% set version = "2.4.1" %}
+{% set sha256 = "2366c7aa373118315de7c082401907bacd28e8b1e4e0a6d702334d17b89e71aa" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ about:
   license: LGPL-3.0
   license_family: LGPL
   license_file: COPYING
-  summary: 'Crontab module for reading and writing crontab files and accessing the system cron automatically and simply using a direct API.'
+  summary: Crontab module for reading and writing crontab files and accessing the system cron automatically and simply using a direct API.
 
 extra:
   recipe-maintainers:
