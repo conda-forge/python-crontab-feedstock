@@ -1,6 +1,6 @@
 {% set name = "python-crontab" %}
-{% set version = "2.5.1" %}
-{% set sha256 = "4bbe7e720753a132ca4ca9d4094915f40e9d9dc8a807a4564007651018ce8c31" %}
+{% set version = "2.6.0" %}
+{% set sha256 = "1e35ed7a3cdc3100545b43e196d34754e6551e7f95e4caebbe0e1c0ca41c2f1b" %}
 
 package:
   name: {{ name|lower }}
@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - python-dateutil
 
 test:
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - jan-janssen
