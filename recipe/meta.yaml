@@ -1,6 +1,6 @@
 {% set name = "python-crontab" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "40067d1dd39ade3460b2ad8557c7651514cd3851deffff61c5c60e1227c5c36b" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "007c8aee68dddf3e04ec4dce0fac124b93bd68be7470fc95d2a9617a15de291b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
