@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-crontab-
 
 Home: https://github.com/doctormo/python-crontab
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-only
 
 Summary: Crontab module for reading and writing crontab files and accessing the system cron automatically and simply using a direct API.
 
